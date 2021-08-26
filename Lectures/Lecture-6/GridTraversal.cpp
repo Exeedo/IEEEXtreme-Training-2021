@@ -16,12 +16,14 @@ void dfs(int r, int c) {
 	for (int i = 0; i < 4; i++) {
 		int R = r + dr[i];
 		int C = c + dc[i];
+		// Check for the grid boundaries:
+		if (R < 0 || C < 0 || R >= rows || C >= cols)
+			continue;
+		
 		if (!visited[R][C])
 			dfs(R, C);
 	}
-
 	return;
-
 }
 
 
@@ -30,11 +32,8 @@ int main() {
 	dfs(0, 0);
 }
 
-
 /*
-
 ABC
 DXE
 FGH
-
 */
