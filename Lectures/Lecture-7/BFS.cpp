@@ -35,8 +35,8 @@ void BFS(int u) {
 
 int main() {
 	FILE* in_file, * out_file;
-	freopen_s(&in_file, "input.txt", "r", stdin);
-	freopen_s(&out_file, "output.txt", "w", stdout);
+	freopen_s(&in_file, "BFS_input.txt", "r", stdin);
+	freopen_s(&out_file, "BFS_output.txt", "w", stdout);
 
 
 	cin >> n >> e;
