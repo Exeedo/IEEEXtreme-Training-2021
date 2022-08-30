@@ -1,6 +1,6 @@
 # IEEEXtreme Training 2021
 This repository is a part of the IEEEXtreme Training 2021 that is given by [Osama Khallouf](https://github.com/Exeedo).
-The training includes live lectures, videos, animations, explanations and more.
+The training includes live lectures, videos, explanations and more.
 
 ## Related Links
 - Problems of previous IEEEXtreme Problems can be found on [CSAcademy](https://csacademy.com/ieeextreme-practice/tasks).
